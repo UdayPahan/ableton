@@ -1,0 +1,29 @@
+.fifth-img{
+    /* border: 1px solid red; */
+}
+
+.fifth-img-background-box{
+    background-color: aquamarine;
+    width:70vw;
+    height:50vw;
+    margin-inline:auto;
+    z-index:-1;
+}
+
+.images{
+    z-index: 0;
+    position:relative;
+    bottom:9rem;
+    margin:0 3rem;
+}
+.images .left{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.images .right{
+    width:150px;
+    height:110px;
+    object-fit: cover;
+}

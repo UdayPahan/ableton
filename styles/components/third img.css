@@ -1,0 +1,42 @@
+.third-img{
+    /* border:1px solid red; */
+    height:70vw;
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+     right:40px;
+}
+
+.third-img-background-box{
+    width:60vw;
+    height:100%;
+    background-color: bisque;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    overflow: hidden;
+}
+
+.top{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+}
+
+.bottom{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+}
+
+.right{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    /* align-self:end; */
+    position:absolute;
+    right:-20px;
+}

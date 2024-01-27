@@ -1,0 +1,12 @@
+.forth-img img{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+    margin-inline: auto;
+}
+
+.forth-img{
+    /* border:1px solid red; */
+    display:flex;
+    justify-content: center;
+}

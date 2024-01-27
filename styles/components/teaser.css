@@ -1,0 +1,32 @@
+.teaser{
+    background-color: cadetblue;
+    margin-inline:0.7rem;
+    /* height:60vh; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    z-index:-1;
+}
+
+.teaser-img{
+    background-image: url('https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:40vh;
+    z-index: 1;
+}
+
+.teaser-job{
+    /* display:block; */
+    font-size:1.2rem;
+    max-width:45ch;
+
+}
+
+.job-teaser{
+    align-self:start;
+    margin-left:0.7rem;
+    color:blue;
+    font-size:1.4rem;
+}

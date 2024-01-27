@@ -1,0 +1,16 @@
+.first-video iframe{
+    border-radius: 6px;
+}
+
+.first-video{
+    margin-inline: auto;
+    height:250px;
+    width:280px;
+    /* border:1px solid red; */
+}
+
+.first-video p{
+    /* align-self: center;
+    */
+    font-size:10px; 
+}

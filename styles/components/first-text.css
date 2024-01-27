@@ -1,0 +1,17 @@
+.first-text{
+   display:flex;
+   flex-direction: column;
+   /* text-align:center; */
+   /* border:1px solid red  */;
+   max-width:45ch;
+   margin:0 1rem;
+} 
+   
+.first-text-title{
+   font-size:1rem;
+}
+
+.first-text-desc{
+   padding-top:1rem;
+   font-size:0.8rem;
+}
